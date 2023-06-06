@@ -1,0 +1,9 @@
+<div>
+  <ul>
+    <li *ngFor="let person of objArray">Je m'appelle {{person.name}}, j'ai {{person.age}} et j'aime
+      {{person.hobby}}
+      <button (click)="supprimer(person.id)">supprimer</button>
+    </li>
+
+  </ul>
+</div>
